@@ -2,6 +2,7 @@
 
 /* Varliables */
 :root {
+	--titleRed: #88bfd4;
 	--ventana: #2e3440;
 	--backcolor: #f5f5f5;
 	--footer: #bf9663;
@@ -11,7 +12,7 @@
 	--green: #27c93f;
 	--border-radius: 5px;
 	--box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
-	--lumina: 0px 0px 5px aliceblue;
+	--lumina: #d96277;
 	--select: #2ac79f;
 }
 
@@ -86,15 +87,15 @@ header h1 {
 
 #redes h2 {
 	margin-top: 20px;
+	color: var(--titleRed);
 }
 
 #redes li a {
-	color: aliceblue;
+	color: #bdd982;
 }
 
 #redes li a:hover {
-	color: black;
-	text-shadow: var(--lumina);
+	color: var(--lumina);
 }
 
 #semaforo {
